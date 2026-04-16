@@ -80,7 +80,7 @@ router.post('/', (req, res) => {
       
       // Nội dung mail báo về cho Huy (Admin)
       const adminMailOptions = {
-        from: `"Hệ thống ERO Rivesite" <${process.env.EMAIL_USER}>`,
+        from: `"Hệ thống ECO Riverside" <${process.env.EMAIL_USER}>`,
         to: process.env.EMAIL_USER, 
         subject: `🔥 [THÔNG BÁO] Khách hàng mới: ${ho_ten}`,
         html: `
@@ -101,21 +101,21 @@ router.post('/', (req, res) => {
 
       // Nội dung thư cảm ơn gửi cho khách hàng
       const customerMailOptions = {
-        from: `"Dự án ERO Rivesite" <${process.env.EMAIL_USER}>`,
+        from: `"Dự án ECO Riverside" <${process.env.EMAIL_USER}>`,
         to: email, 
-        subject: 'Cảm ơn bạn đã đăng ký tư vấn dự án ERO Rivesite',
+        subject: 'Cảm ơn bạn đã đăng ký tư vấn dự án ECO Riverside',
         html: `
           <div style="max-width: 600px; margin: auto; border: 1px solid #eee; font-family: sans-serif;">
             <div style="background-color: #0B1628; color: #C9A84C; padding: 20px; text-align: center;">
-              <h1>ERO RIVESITE</h1>
+              <h1>ECO RIVERSIDE</h1>
             </div>
             <div style="padding: 30px;">
               <p>Xin chào <b>${ho_ten}</b>,</p>
-              <p>Chúng tôi đã nhận được thông tin đăng ký tư vấn của bạn. Cảm ơn bạn đã quan tâm đến không gian sống sinh thái tại <b>ERO Rivesite</b>.</p>
+              <p>Chúng tôi đã nhận được thông tin đăng ký tư vấn của bạn. Cảm ơn bạn đã quan tâm đến không gian sống sinh thái tại <b>ECO Riverside</b>.</p>
               <p>Chuyên viên của chúng tôi sẽ liên hệ với bạn qua số điện thoại <b>${so_dien_thoai}</b> trong thời gian sớm nhất.</p>
               <br>
               <p>Trân trọng,</p>
-              <p><b>Đội ngũ Quản lý dự án ERO Rivesite</b></p>
+              <p><b>Đội ngũ Marketing dự án ECO Riverside</b></p>
             </div>
           </div>
         `
