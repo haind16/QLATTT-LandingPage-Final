@@ -70,7 +70,7 @@ CẤU HÌNH API
 
 Frontend đang gọi API tại:
 
-    http://localhost:3000
+    https://qlattt-landingpage-final.onrender.com
 
 --------------------------------------------------
 
@@ -78,7 +78,7 @@ KHI DEPLOY PRODUCTION
 
 Cần thay toàn bộ:
 
-    http://localhost:3000
+    https://qlattt-landingpage-final.onrender.com
 
 Thành domain backend thực tế, ví dụ:
 

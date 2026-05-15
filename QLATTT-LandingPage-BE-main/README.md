@@ -100,5 +100,5 @@ HƯỚNG DẪN CÀI ĐẶT
 
 SERVER
 
-    http://localhost:3000
+    https://qlattt-landingpage-final.onrender.com
 ```
